@@ -49,3 +49,29 @@ The implementation also focuses on practical identity-management issues such as 
 | **Password Hash Synchronisation (PHS)** | Enables synchronized users to authenticate to supported cloud services using their existing credentials. |
 | **Azure Storage** | Optional; can be used for project artifacts or logs if required. |
 | **Azure Monitor** | Optional; can assist with Azure resource monitoring and troubleshooting. |
+
+## Project Modules
+
+The project is divided into six modules:
+
+1. **Azure Environment and Infrastructure Setup**  
+   Create the Azure resource group, virtual network, subnet and Windows Server VM.
+
+2. **Active Directory Domain Services Setup**  
+   Install and configure AD DS, create the test domain, OUs, users and groups.
+
+3. **Microsoft Entra ID Preparation**  
+   Prepare the Microsoft Entra tenant and required configuration for identity synchronization.
+
+4. **Microsoft Entra Connect & Password Hash Synchronisation**  
+   Install and configure Microsoft Entra Connect and enable Password Hash Synchronisation (PHS).
+
+5. **Identity Synchronization & Authentication Testing**  
+   Verify that selected users synchronize from Active Directory to Microsoft Entra ID and test cloud authentication.
+
+6. **Filtering, Monitoring & Troubleshooting**  
+   Identify and resolve synchronization errors, duplicate attributes, incorrect filtering and unwanted account synchronization.
+
+### Module Flow
+
+`Azure Setup → AD DS → Entra ID Preparation → Entra Connect + PHS → Testing → Troubleshooting`
