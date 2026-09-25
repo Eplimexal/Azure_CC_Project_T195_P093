@@ -1,4 +1,4 @@
-# Azure Hybrid Identity with Password Hash Synchronisation
+# P093: Azure Hybrid Identity with Password Hash Synchronisation
 
 ## Project Abstract
 
@@ -23,8 +23,14 @@ The implementation also focuses on practical identity-management issues such as 
 - Microsoft Entra Connect
 - Active Directory Domain Services (AD DS)
 - Password Hash Synchronisation (PHS)
-- Windows Server
+- - Windows Server
 
 ## Keywords
 
 `Azure` `Microsoft Entra ID` `Active Directory` `Microsoft Entra Connect` `Password Hash Synchronisation` `Hybrid Identity` `Cloud Authentication`
+
+## Team Members
+- 2400031348	PATNANA LAYAVARDHANA
+- 2400031258	ROHAN KOGANTI
+- 2400031163	MANIVELTHI RAMAKRISHNA RAJU
+- 2400030683	ANEM BHARGAV
