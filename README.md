@@ -34,3 +34,18 @@ The implementation also focuses on practical identity-management issues such as 
 - 2400031258	ROHAN KOGANTI
 - 2400031163	MANIVELTHI RAMAKRISHNA RAJU
 - 2400030683	ANEM BHARGAV
+
+## Azure Services Required
+
+| Service / Component | Purpose |
+|---|---|
+| **Azure Subscription** | Provides the cloud environment for the project. |
+| **Resource Group** | Organizes and manages all project resources. |
+| **Azure Virtual Network (VNet)** | Provides the private network environment for the Windows Server VM. |
+| **Windows Server VM** | Hosts Active Directory Domain Services and Microsoft Entra Connect for the lab. |
+| **Active Directory Domain Services (AD DS)** | Provides the on-premises identity directory containing users, groups and OUs. |
+| **Microsoft Entra ID** | Provides the cloud identity and authentication platform. |
+| **Microsoft Entra Connect** | Synchronizes identities between on-premises Active Directory and Microsoft Entra ID. |
+| **Password Hash Synchronisation (PHS)** | Enables synchronized users to authenticate to supported cloud services using their existing credentials. |
+| **Azure Storage** | Optional; can be used for project artifacts or logs if required. |
+| **Azure Monitor** | Optional; can assist with Azure resource monitoring and troubleshooting. |
