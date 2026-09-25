@@ -75,3 +75,20 @@ The project is divided into six modules:
 ### Module Flow
 
 `Azure Setup → AD DS → Entra ID Preparation → Entra Connect + PHS → Testing → Troubleshooting`
+
+## Five Tasks
+
+1. **Set Up the Azure Environment**  
+   Create the required resource group, virtual network, subnet and Windows Server VM.
+
+2. **Configure Active Directory**  
+   Install AD DS and create the test domain, OUs, users and groups.
+
+3. **Configure Entra Connect with PHS**  
+   Install Microsoft Entra Connect and configure Password Hash Synchronisation between Active Directory and Microsoft Entra ID.
+
+4. **Synchronize and Verify User Identities**  
+   Synchronize selected users and groups and verify their presence and authentication in Microsoft Entra ID.
+
+5. **Configure Filtering and Troubleshoot Synchronization**  
+   Configure synchronization filtering and resolve common issues such as duplicate attributes, synchronization errors and unwanted account synchronization.
