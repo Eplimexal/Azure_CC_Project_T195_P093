@@ -75,19 +75,19 @@ The project is divided into six modules:
 
 `Azure Setup → AD DS → Entra ID Preparation → Entra Connect + PHS → Testing → Troubleshooting`
 
-## Five Tasks
+## FIVE TASKS
 
-1. **Set Up the Azure Environment**  
-   Create the required resource group, virtual network, subnet and Windows Server VM.
+1. **Azure Cloud Shell and Managed Disks**  
+   Start a PowerShell session in Azure Cloud Shell, create a Resource Group and an Azure-managed disk, configure the managed disk using Azure PowerShell, and verify the resources.
 
-2. **Configure Active Directory**  
-   Install AD DS and create the test domain, OUs, users and groups.
+2. **Microsoft Entra ID Users, Groups, Tenants and Guest Users**  
+   Create and configure cloud-only users, assigned-membership and dynamic-membership groups, a Microsoft Entra ID tenant, and an external guest user. Verify identity and membership behavior.
 
-3. **Configure Entra Connect with PHS**  
-   Install Microsoft Entra Connect and configure Password Hash Synchronisation between Active Directory and Microsoft Entra ID.
+3. **Resource Groups, Resource Movement and Resource Locks**  
+   Deploy a resource to an existing Resource Group, move the resource between Resource Groups, and implement and test an Azure Resource Lock.
 
-4. **Synchronize and Verify User Identities**  
-   Synchronize selected users and groups and verify their presence and authentication in Microsoft Entra ID.
+4. **Virtual Networks, VMs, IP Addressing, NSGs and DNS**  
+   Create and configure a Virtual Network, deploy virtual machines, configure private and public IP addresses, apply Network Security Groups, and configure Azure DNS for internal and external name resolution.
 
-5. **Configure Filtering and Troubleshoot Synchronization**  
-   Configure synchronization filtering and resolve common issues such as duplicate attributes, synchronization errors and unwanted account synchronization.
+5. **Azure Virtual Machines and Storage**  
+   Deploy an Azure Virtual Machine, create and configure an Azure Storage Account, manage Blob Storage, configure authentication and authorization for Azure Storage, and create and configure an Azure Files share.
