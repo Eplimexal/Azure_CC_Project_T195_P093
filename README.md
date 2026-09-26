@@ -32,7 +32,6 @@ The implementation also focuses on practical identity-management issues such as 
 ## Team Members
 - 2400031348	PATNANA LAYAVARDHANA
 - 2400031258	ROHAN KOGANTI
-- 2400031163	MANIVELTHI RAMAKRISHNA RAJU
 - 2400030683	ANEM BHARGAV
 
 ## Azure Services Required
